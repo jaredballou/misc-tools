@@ -1,0 +1,36 @@
+---
+defaults:
+  github_user: jaredballou
+  github_url: "git@github.com:%(github_user)s/%(repo_name)s.git"
+  branch: master
+repos:
+  "QLDS-Manager": {}
+  "Source-Query-Class-Python": {}
+  "SteamWorks": {}
+  "condenser": {}
+  "gameserver-daemon": {}
+  "insurgency-addons": {}
+  "insurgency-hlstatsx": {}
+  "insurgency-tools": {}
+  "keyvalues-python": {}
+  "lgsm-gamedata": {}
+  "lgsm-python":
+    branch: develop
+  "linuxgsm": {}
+  "misc-tools": {}
+  "php-vpk-reader": {}
+  "puppet-hlstatsx": {}
+  "puppet-insurgency": {}
+  "puppet-sourcebans": {}
+  "puppet-srcds": {}
+  "py-keyvalues": {}
+  "pysmx": {}
+  "python-valve": {}
+  "range-project": {}
+  "reconfigure": {}
+  "rokket": {}
+  "sourcepawn-inc-parser": {}
+  "srcds-controller": {}
+  "steam-condenser-php": {}
+  "srcds_plus":
+    github_user: ldooks
